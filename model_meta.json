@@ -1,0 +1,84 @@
+{
+  "accuracy": 1.0,
+  "cv_mean": 0.9999,
+  "cv_std": 0.00019999999999997797,
+  "classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "soil_types": [
+    "Alluvial",
+    "Black Soil",
+    "Clay",
+    "Laterite",
+    "Red Soil",
+    "Rocky",
+    "Sandy"
+  ],
+  "vegetation_types": [
+    "Coastal",
+    "Desert",
+    "Forest",
+    "Grassland",
+    "Savanna",
+    "Shrubland"
+  ],
+  "feature_cols": [
+    "Elevation_m",
+    "Distance_to_River_km",
+    "Distance_to_Coast_km",
+    "Rainfall_mm",
+    "Temperature_C",
+    "Soil_Type",
+    "Vegetation_Type",
+    "River_Prox_Score",
+    "Coast_Prox_Score",
+    "Water_Access",
+    "Elev_Suit",
+    "Climate_Score",
+    "Log_River",
+    "Log_Coast",
+    "Log_Rain"
+  ],
+  "feature_importance": {
+    "Log_River": 0.202890896046222,
+    "Distance_to_River_km": 0.2012284812453588,
+    "River_Prox_Score": 0.17961808989555986,
+    "Elevation_m": 0.16381607476141147,
+    "Elev_Suit": 0.12784074137456305,
+    "Water_Access": 0.1048394953247302,
+    "Log_Coast": 0.00288812670414537,
+    "Climate_Score": 0.002800722651760211,
+    "Log_Rain": 0.0027701897094263234,
+    "Rainfall_mm": 0.0026211275472512743,
+    "Coast_Prox_Score": 0.002612594883085245,
+    "Distance_to_Coast_km": 0.00258554116294855,
+    "Temperature_C": 0.001873886418915182,
+    "Soil_Type": 0.0009558571253322497,
+    "Vegetation_Type": 0.0006581751492901446
+  },
+  "per_class_metrics": {
+    "High": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Low": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Medium": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "ensemble": [
+    "rf",
+    "gb"
+  ],
+  "n_train": 8000,
+  "n_test": 2000
+}
